@@ -35,6 +35,11 @@ let notes = [
       id: 3,
       content: "GET and POST are the most important methods of HTTP protocol",
       important: true
+    },
+    {
+      id: 4,
+      content: "Postman is quite usefull",
+      important: true
     }
   ]
 
