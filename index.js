@@ -53,7 +53,7 @@ app.get('/api/notes/:id', (request, response) => {
     if (note) {
         response.json(note)
     } else {
-        response.status(404).send("404 : Can't findd this ressource")
+        response.status(404).send("404 : Can't find this ressource")
     }
   })
 
